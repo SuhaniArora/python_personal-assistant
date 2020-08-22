@@ -14,3 +14,7 @@ This personal assistant is capable of running:
 - Windows Media Player
 
 - Facebook
+
+- Firefox
+
+- Calculator

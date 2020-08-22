@@ -23,6 +23,14 @@ while True:
     elif ('notepad++' in p) or ('pad editor' in p):
         pyttsx3.speak('Launching your notepad++')
         os.system('notepad++')
+        
+    elif (('mozilla' in p) or ('firefox' in p) or ('web' in p)):
+        pyttsx3.speak('opening Mozilla firefox')
+        os.system('firefox')
+
+    elif ('calculator' in p):
+        pyttsx3.speak('Opening your calculator')
+        os.system('calc')        
 
     elif (("run" in p) or  ("open" in p ))  and ("player" in p) and ("media" in p) :
         pyttsx3.speak("Opening Media Player")
